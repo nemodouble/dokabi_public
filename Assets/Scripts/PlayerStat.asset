@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06ff8ec78ba440c88f5f942df040c86, type: 3}
+  m_Name: PlayerStat
+  m_EditorClassIdentifier: 
+  unlockFly: 0
+  unlockDash: 0
+  unlockWallJump: 0
+  unlockBall: 0
+  unlockDownSmash: 0
+  unlockTeleport: 0
+  accelerate: 100
+  decelerate: 50
+  walkSpeed: 8.6
+  jumpLengthMax: 0.02
+  jumpSpeed: 980
+  fallGravityScale: 2
+  jumpBufferLength: 0.5
+  jumpImpact: {fileID: 0}
+  riseImpact: {fileID: 0}
+  wallDragSpeed: 0.5
+  wallJumpLengthMax: 0.1
+  wallJumpSpeed: 1
+  coyoteTime: 0.1
+  angleMax: 50
+  slopeSpeed: 19
+  slopeAccel: 30
+  draggedSlopeSpeed: 10
+  dashAccel: 600
+  dashLengthMax: 0.08
+  dashDelay: 0.16
+  dashCoolMax: 0.3
+  downSmashBeforeDelay: 0.2
+  downSmashSpeed: 30
+  downSmashAfterDelay: 0.3
+  ballMass: 10
+  ballLinearDrag: 0.1
+  ballAngularDrag: 0
+  ballAccel: 20
+  ballSpeedMax: 20
+  ballCoolMax: 0.1
+  flyingTimeMax: 0.3
+  flyingSpeed: 15
+  flyingStartAccel: 700
+  flyingTimeReduceScale: 0.5
+  sideAttackSize: {x: 2.2, y: 1.6}
+  upAttackSize: {x: 1.6, y: 2.2}
+  downAttackSize: {x: 1.6, y: 2.2}
+  sideAttackPos: {x: 0, y: 0}
+  upAttackPos: {x: 0, y: 0}
+  downAttackPos: {x: 0, y: 0}
+  atkCoolMax: 0.3
+  attackDetectTimeMax: 0.1
+  downAttackBounceForce: 40000
+  invincibleTimeMax: 1.5
+  staggerTimeMax: 0.15
+  knockBackSpeed: 10
+  knockBackTimeMax: 0.3
+  knockBackDir: {x: 0, y: 0}
+  knockBackAfterStaggerTime: 1
+  originalCameraPosition: {x: 1, y: 0, z: 0}
+  platform:
+    serializedVersion: 2
+    m_Bits: 0
+  platformCheckBoxSize: {x: 0.3, y: 0.03}
+  wallCheckBoxSize: {x: 0.03, y: 0.3}
+  timescale: 1
+  tmpEffect: {fileID: 0}
